@@ -1,0 +1,1036 @@
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+    <meta http-equiv='x-ua-compatible' content='ie=edge'>
+    <title>Result</title>
+
+    <!-- font-family: 'Raleway', sans-serif; -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <!-- font-family: 'Open Sans', sans-serif; -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <!-- font-family: 'Roboto', sans-serif; -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+    <!-- icon cdn-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- range slider -->
+    <link rel="stylesheet" href="style/nouislider.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style/all.css">
+</head>
+
+<body>
+    <header class="layout__header">
+        <div class="container">
+            <div class="row">
+                <a href="#" class="layout__header__hamburger material-icons">menu</a>
+                <h1 class="layout__header__logo">
+                    <a href="index.html">
+                        <img src="./images/ic-logo-aloha.svg" alt="logo">
+                    </a>
+                </h1>
+                <ul class="layout__header__nav">
+                    <li class="layout__header__nav__item dropdown">
+                        <a href="#" class="material-icons" id="header__languageBtn" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">languagearrow_drop_down</a>
+
+                        <div class="dropdown-menu" aria-labelledby="header__languageBtn">
+                            <a class="dropdown-item" href="#">中文</a>
+                            <a class="dropdown-item" href="#">English</a>
+                            <a class="dropdown-item" href="#">日本語</a>
+                        </div>
+                    </li>
+                    <li class="layout__header__nav__item">
+                        <a href="#">
+                            Sign up
+                        </a>
+                    </li>
+                    <li class="layout__header__nav__item layout__header__nav__itemLogin">
+                        <a href="login.html">
+                            Login
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="layout__searchBar">
+        <div class="container">
+            <ul class="row layout__searchBar__xs">
+                <li class="layout__searchBar__xs__item">
+                    Bangkok
+                </li>
+                <li class="layout__searchBar__xs__item">
+                    17 June - 19 June
+                </li>
+                <li class="layout__searchBar__xs__item">
+                    2 adults・1 room
+                </li>
+            </ul>
+            <ul class="row layout__searchBar__md">
+                <li class="layout__searchBar__md__item">
+                    <a href="#">
+                        <div class="material-icons">
+                            location_on
+                        </div>
+                        <div class="main">
+                            <div class="title">
+                                DESTINATION
+                            </div>
+                            <div class="content">
+                                Bangkok, Thailand
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="layout__searchBar__md__item">
+                    <a href="#">
+                        <div class="material-icons">
+                            date_range
+                        </div>
+                        <div class="main__md">
+                            <div class="title">
+                                CHECK-IN / OUT
+                            </div>
+                            <div class="content">
+                                17 June - 19 June
+                            </div>
+                        </div>
+                        <div class="main__xl">
+                            <section>
+                                <div class="title">
+                                    CHECK-IN
+                                </div>
+                                <div class="content">
+                                    17 June
+                                </div>
+                            </section>
+                            <section>
+                                <div class="title">
+                                    CHECK-OUT
+                                </div>
+                                <div class="content">
+                                    19 June
+                                </div>
+                            </section>
+                        </div>
+                    </a>
+                </li>
+                <li class="layout__searchBar__md__item">
+                    <a href="#">
+                        <div class="material-icons">
+                            person
+                        </div>
+                        <div class="main">
+                            <div class="title">
+                                GUESTS
+                            </div>
+                            <div class="content">
+                                2 adults・1 room
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="layout__searchBar__md__itemBtn">
+                    <a href="#" class="btn btn-primary">
+                        SEARCH
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="result__titleBar container">
+        <div class="row">
+            <div class="col-12 col-md-4 result__titleBar__title">
+                Bangkok<sup>3,240</sup>
+            </div>
+            <ul class="col-XS-8 result__titleBar__sortXS">
+                <li class="result__titleBar__sortXS__item result__titleBar__sortXS__item--active">
+                    <a href="#">
+                        Recommended
+                    </a>
+                </li>
+                <li class="result__titleBar__sortXS__item">
+                    <a href="#">
+                        Lowest Price
+                    </a>
+                </li>
+                <li class="result__titleBar__sortXS__item">
+                    <a href="#">
+                        Best value
+                    </a>
+                </li>
+                <li class="result__titleBar__sortXS__item">
+                    <a href="#">
+                        Distance to City Center
+                    </a>
+                </li>
+            </ul>
+            <ul class="col-md-8 result__titleBar__sortMD">
+                <li class="result__titleBar__sortMD__item result__titleBar__sortMD__item--active">
+                    <a href="#">
+                        Recommended
+                    </a>
+                </li>
+                <li class="result__titleBar__sortMD__item">
+                    <a href="#">
+                        Lowest Price
+                    </a>
+                </li>
+                <li class="result__titleBar__sortMD__item">
+                    <a href="#">
+                        Best value
+                    </a>
+                </li>
+                <li class="result__titleBar__sortMD__item">
+                    <a href="#">
+                        Distance to City Center
+                    </a>
+                </li>
+            </ul>
+            <div class="col-12 result__titleBar__btnBarXS">
+                <a class="result__titleBar__btnBarXS__btn" href="#" data-toggle="modal" data-target="#bodyFilterXS">
+                    <section>
+                        <span class="material-icons">
+                            filter_list
+                        </span>
+                        FILTER
+                    </section>
+                </a>
+                <a class="result__titleBar__btnBarXS__btn" href="#" onclick="showResult__titleBar__sortXS()">
+                    <section>
+                        <span class="material-icons">
+                            sort
+                        </span>
+                        SORT
+                    </section>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="result__body container">
+        <div class="row">
+            <!-- Modal -->
+            <div class="modal fade result__body__filterXS" id="bodyFilterXS" tabindex="-1" role="dialog"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="modal-title"> <span class="material-icons">filter_list</span> FILTER</div>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span class="material-icons" aria-hidden="true">close</span>
+                            </button>
+                        </div>
+                        <div class="modal-body result__body__filterXS__body">
+                            <div class="result__body__filterXS__block">
+                                <div class="title">Deals</div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="filterXS__freeCancellation">
+                                    <label class="custom-control-label" for="filterXS__freeCancellation">Free
+                                        cancellation</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="filterXS__noPrepayment">
+                                    <label class="custom-control-label" for="filterXS__noPrepayment">No
+                                        prepayment</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="filterXS__specialOffers">
+                                    <label class="custom-control-label" for="filterXS__specialOffers">Special
+                                        offers</label>
+                                </div>
+                            </div>
+                            <div class="result__body__filterXS__block">
+                                <div class="title">Popular filter</div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="filterXS__breakfast">
+                                    <label class="custom-control-label" for="filterXS__breakfast">Breakfast
+                                        included</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="filterXS__wifi">
+                                    <label class="custom-control-label" for="filterXS__wifi">Free Wi-Fi</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="filterXS__pool">
+                                    <label class="custom-control-label" for="filterXS__pool">Swimming pool</label>
+                                </div>
+                            </div>
+                            <div class="result__body__filterXS__block">
+                                <div class="title">Budget</div>
+                                <div class="slider-handles"></div>
+                                <div class="sliderNumber">
+                                    <div class="sliderNumber__block sliderNumber__min">
+                                        <div class="sliderNumber__block__title">
+                                            MIN PRICE
+                                        </div>
+                                        <input type="text" value="TWD 800">
+                                    </div>
+                                    <div class="sliderNumber__space">
+                                        <span class="forXL">-</span>
+                                    </div>
+                                    <div class="sliderNumber__block sliderNumber__max">
+                                        <div class="sliderNumber__block__title">
+                                            MAX PRICE
+                                        </div>
+                                        <input type="text" value="TWD 4,000+">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="result__body__filterXS__block">
+                                <div class="title">Rating</div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="filterXS__5star">
+                                    <label class="custom-control-label" for="filterXS__5star"> <span
+                                            class="material-icons">star
+                                            star star star star</span> 5.0</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="filterXS__4star">
+                                    <label class="custom-control-label" for="filterXS__4star"> <span
+                                            class="material-icons">star
+                                            star star star</span> 4.0</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="filterXS__3star">
+                                    <label class="custom-control-label" for="filterXS__3star"> <span
+                                            class="material-icons">star
+                                            star star</span> 3.0</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="filterXS__2star">
+                                    <label class="custom-control-label" for="filterXS__2star"> <span
+                                            class="material-icons">star
+                                            star</span> 2.0</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="filterXS__1star">
+                                    <label class="custom-control-label" for="filterXS__1star"> <span
+                                            class="material-icons">star</span> 1.0</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="filterXS__unRated">
+                                    <label class="custom-control-label" for="filterXS__unRated">Unrated</label>
+                                </div>
+                            </div>
+                            <div class="result__body__filterXS__block">
+                                <div class="title">Stay type</div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="filterXS__hotel">
+                                    <label class="custom-control-label" for="filterXS__hotel">Hotel</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="filterXS__apartment">
+                                    <label class="custom-control-label" for="filterXS__apartment">Apartment</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="filterXS__unique">
+                                    <label class="custom-control-label" for="filterXS__unique">Unique</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="filterXS__hostel">
+                                    <label class="custom-control-label" for="filterXS__hostel">Hostel</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <div class="modal-footer__title">Find 1,245 results</div>
+                            <div class="modal-footer__body">
+                                <button type="button" class="btn btn-outline-white" data-dismiss="modal">CLEAR</button>
+                                <button type="button" class="btn btn-primary">FILTER</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 result__body__filterMD">
+                <div class="result__body__filterMD__block">
+                    <div class="title">Deals</div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filterMD__freeCancellation">
+                        <label class="custom-control-label" for="filterMD__freeCancellation">Free cancellation</label>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filterMD__noPrepayment">
+                        <label class="custom-control-label" for="filterMD__noPrepayment">No prepayment</label>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filterMD__specialOffers">
+                        <label class="custom-control-label" for="filterMD__specialOffers">Special offers</label>
+                    </div>
+                </div>
+                <div class="result__body__filterMD__block">
+                    <div class="title">Popular filter</div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filterMD__breakfast">
+                        <label class="custom-control-label" for="filterMD__breakfast">Breakfast included</label>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filterMD__wifi">
+                        <label class="custom-control-label" for="filterMD__wifi">Free Wi-Fi</label>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filterMD__pool">
+                        <label class="custom-control-label" for="filterMD__pool">Swimming pool</label>
+                    </div>
+                </div>
+                <div class="result__body__filterMD__block">
+                    <div class="title">Budget</div>
+                    <div class="slider-handles"></div>
+                    <div class="sliderNumber">
+                        <div class="sliderNumber__block sliderNumber__min">
+                            <div class="sliderNumber__block__title">
+                                MIN PRICE
+                            </div>
+                            <input type="text" value="TWD 800">
+                        </div>
+                        <div class="sliderNumber__space">
+                            <span class="forXL">-</span>
+                        </div>
+                        <div class="sliderNumber__block sliderNumber__max">
+                            <div class="sliderNumber__block__title">
+                                MAX PRICE
+                            </div>
+                            <input type="text" value="TWD 4,000+">
+                        </div>
+                    </div>
+                </div>
+                <div class="result__body__filterMD__block">
+                    <div class="title">Rating</div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filterMD__5star">
+                        <label class="custom-control-label" for="filterMD__5star"> <span class="material-icons">star
+                                star star star star</span> 5.0</label>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filterMD__4star">
+                        <label class="custom-control-label" for="filterMD__4star"> <span class="material-icons">star
+                                star star star</span> 4.0</label>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filterMD__3star">
+                        <label class="custom-control-label" for="filterMD__3star"> <span class="material-icons">star
+                                star star</span> 3.0</label>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filterMD__2star">
+                        <label class="custom-control-label" for="filterMD__2star"> <span class="material-icons">star
+                                star</span> 2.0</label>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filterMD__1star">
+                        <label class="custom-control-label" for="filterMD__1star"> <span
+                                class="material-icons">star</span> 1.0</label>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filterMD__unRated">
+                        <label class="custom-control-label" for="filterMD__unRated">Unrated</label>
+                    </div>
+                </div>
+                <div class="result__body__filterMD__block">
+                    <div class="title">Stay type</div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filterMD__hotel">
+                        <label class="custom-control-label" for="filterMD__hotel">Hotel</label>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filterMD__apartment">
+                        <label class="custom-control-label" for="filterMD__apartment">Apartment</label>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filterMD__unique">
+                        <label class="custom-control-label" for="filterMD__unique">Unique</label>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filterMD__hostel">
+                        <label class="custom-control-label" for="filterMD__hostel">Hostel</label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 result__body__roomList">
+                <ul>
+                    <li class="result__body__roomList__item">
+                        <a href="detail.html">
+                            <div class="frame">
+                                <div class="bg bgimg"
+                                    style="background-image: url(./images/taylor-simpson-R49Mu5jfgSk-unsplash.jpg);">
+                                </div>
+                                <div class="main">
+                                    <div class="location">
+                                        Rachada, Bangkok
+                                        <span class="fromCenter">
+                                            ・2 km from center
+                                        </span>
+                                    </div>
+                                    <div class="title">
+                                        Rachada Hotel
+                                    </div>
+                                    <div class="score">
+                                        <span class="material-icons">
+                                            star star star star
+                                        </span>
+                                        4.0 (283)
+                                    </div>
+                                    <div class="room">
+                                        Deluxe Double Room
+                                    </div>
+                                    <div class="remark">
+                                        2 guests・1 bed (Queen size)
+                                    </div>
+                                    <ul class="tagList">
+                                        <li class="tagList__item">
+                                            Free cancellation
+                                        </li>
+                                        <li class="tagList__item">
+                                            No prepayment
+                                        </li>
+                                    </ul>
+                                    <div class="price">
+                                        <div class="price__remark">
+                                            per night
+                                        </div>
+                                        <div class="price__original">
+                                            0
+                                        </div>
+                                        TWD <span class="price__onsale">1,980</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="result__body__roomList__item result__body__roomList__item--onsale">
+                        <div class="frame">
+                            <div class="bg bgimg"
+                                style="background-image: url(./images/linus-mimietz-sgIhwj4cSiU-unsplash.jpg);">
+                            </div>
+                            <div class="main">
+                                <div class="location">
+                                    Phaya Thai, Bangkok
+                                    <span class="fromCenter">
+                                        ・2.9 km from center
+                                    </span>
+                                </div>
+                                <div class="title">
+                                    Forever Place
+                                </div>
+                                <div class="score">
+                                    <span class="material-icons">
+                                        star star star star
+                                    </span>
+                                    4.0 (283)
+                                </div>
+                                <div class="room">
+                                    Standard Double Room
+                                </div>
+                                <div class="remark">
+                                    2 guests・1 bed (Queen size)
+                                </div>
+                                <ul class="tagList">
+                                    <li class="tagList__item">
+                                        Free cancellation
+                                    </li>
+                                </ul>
+                                <div class="price">
+                                    <div class="price__remark">
+                                        per night
+                                    </div>
+                                    <div class="price__original">
+                                        TWD 1,980
+                                    </div>
+                                    TWD <span class="price__onsale">1,680</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="result__body__roomList__item">
+                        <div class="frame">
+                            <div class="bg bgimg"
+                                style="background-image: url(./images/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);">
+                            </div>
+                            <div class="main">
+                                <div class="location">
+                                    Bangkapi, Bangkok
+                                    <span class="fromCenter">
+                                        ・14 km from center
+                                    </span>
+                                </div>
+                                <div class="title">
+                                    LUV Hotel
+                                </div>
+                                <div class="score">
+                                    <span class="material-icons">
+                                        star star star star
+                                    </span>
+                                    4.0 (325)
+                                </div>
+                                <div class="room">
+                                    Standard Double Room
+                                </div>
+                                <div class="remark">
+                                    2 guests・1 bed (Queen size)
+                                </div>
+                                <ul class="tagList">
+                                    <li class="tagList__item">
+                                        Free cancellation
+                                    </li>
+                                </ul>
+                                <div class="price">
+                                    <div class="price__remark">
+                                        per night
+                                    </div>
+                                    <div class="price__original">
+                                        0
+                                    </div>
+                                    TWD <span class="price__onsale">2,460</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="result__body__roomList__item result__body__roomList__item--onsale">
+                        <div class="frame">
+                            <div class="bg bgimg"
+                                style="background-image: url(./images/dmitriy-tyukov-RFN9qGuDWQA-unsplash.jpg);">
+                            </div>
+                            <div class="main">
+                                <div class="location">
+                                    Chatuchack, Bangkok
+                                    <span class="fromCenter">
+                                        ・12 km from center
+                                    </span>
+                                </div>
+                                <div class="title">
+                                    WOW Life Hotel
+                                </div>
+                                <div class="score">
+                                    <span class="material-icons">
+                                        star star star star
+                                    </span>
+                                    4.0 (204)
+                                </div>
+                                <div class="room">
+                                    Standard Double Room
+                                </div>
+                                <div class="remark">
+                                    2 guests・1 bed (Queen size)
+                                </div>
+                                <ul class="tagList">
+                                    <li class="tagList__item">
+                                        No prepayment
+                                    </li>
+                                </ul>
+                                <div class="price">
+                                    <div class="price__remark">
+                                        per night
+                                    </div>
+                                    <div class="price__original">
+                                        TWD 2,880
+                                    </div>
+                                    TWD <span class="price__onsale">2,240</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="result__body__roomList__item result__body__roomList__item--onsale">
+                        <div class="frame">
+                            <div class="bg bgimg"
+                                style="background-image: url(./images/house-method-lHIyHf5bosQ-unsplash.jpg);">
+                            </div>
+                            <div class="main">
+                                <div class="location">
+                                    Chatuchack, Bangkok
+                                    <span class="fromCenter">
+                                        ・8 km from center
+                                    </span>
+                                </div>
+                                <div class="title">
+                                    Celebrity Palace
+                                </div>
+                                <div class="score">
+                                    <span class="material-icons">
+                                        star star star star star
+                                    </span>
+                                    5.0 (189)
+                                </div>
+                                <div class="room">
+                                    Standard Double Room
+                                </div>
+                                <div class="remark">
+                                    2 guests・1 bed (Queen size)
+                                </div>
+                                <ul class="tagList">
+                                    <li class="tagList__item">
+                                        No prepayment
+                                    </li>
+                                </ul>
+                                <div class="price">
+                                    <div class="price__remark">
+                                        per night
+                                    </div>
+                                    <div class="price__original">
+                                        TWD 2,120
+                                    </div>
+                                    TWD <span class="price__onsale">1,890</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="result__body__roomList__item">
+                        <div class="frame">
+                            <div class="bg bgimg"
+                                style="background-image: url(./images/iwood-R5v8Xtc0ecg-unsplash.jpg);">
+                            </div>
+                            <div class="main">
+                                <div class="location">
+                                    Rang Rak, Bangkok
+                                    <span class="fromCenter">
+                                        ・4.4 km from center
+                                    </span>
+                                </div>
+                                <div class="title">
+                                    RR Space
+                                </div>
+                                <div class="score">
+                                    <span class="material-icons">
+                                        star star star star
+                                    </span>
+                                    4.0 (112)
+                                </div>
+                                <div class="room">
+                                    Deluxe Double Room
+                                </div>
+                                <div class="remark">
+                                    2 guests・1 bed (King size)
+                                </div>
+                                <ul class="tagList">
+                                    <li class="tagList__item">
+                                        Free cancellation
+                                    </li>
+                                </ul>
+                                <div class="price">
+                                    <div class="price__remark">
+                                        per night
+                                    </div>
+                                    <div class="price__original">
+                                        0
+                                    </div>
+                                    TWD <span class="price__onsale">2,090</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="result__body__roomList__item">
+                        <div class="frame">
+                            <div class="bg bgimg"
+                                style="background-image: url(./images/gabriel-alenius-lTrbjFd8Iwo-unsplash.jpg);">
+                            </div>
+                            <div class="main">
+                                <div class="location">
+                                    Watana, Bangkok
+                                    <span class="fromCenter">
+                                        ・6 km from center
+                                    </span>
+                                </div>
+                                <div class="title">
+                                    Bangkok Hostel
+                                </div>
+                                <div class="score">
+                                    <span class="material-icons">
+                                        star star star star star
+                                    </span>
+                                    5.0 (102)
+                                </div>
+                                <div class="room">
+                                    Twin Room
+                                </div>
+                                <div class="remark">
+                                    2 guests・2 beds (2 twins)
+                                </div>
+                                <ul class="tagList">
+                                    <li class="tagList__item">
+                                        Free cancellation
+                                    </li>
+                                    <li class="tagList__item">
+                                        No prepayment
+                                    </li>
+                                </ul>
+                                <div class="price">
+                                    <div class="price__remark">
+                                        per night
+                                    </div>
+                                    <div class="price__original">
+                                        0
+                                    </div>
+                                    TWD <span class="price__onsale">880</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="result__body__roomList__item result__body__roomList__item--onsale">
+                        <div class="frame">
+                            <div class="bg bgimg"
+                                style="background-image: url(./images/annie-spratt-WfrPa0oqcMA-unsplash.jpg);">
+                            </div>
+                            <div class="main">
+                                <div class="location">
+                                    Watana, Bangkok
+                                    <span class="fromCenter">
+                                        ・6 km from center
+                                    </span>
+                                </div>
+                                <div class="title">
+                                    Watana First Hostel
+                                </div>
+                                <div class="score">
+                                    <span class="material-icons">
+                                        star star star
+                                    </span>
+                                    3.0 (608)
+                                </div>
+                                <div class="room">
+                                    Twin Room
+                                </div>
+                                <div class="remark">
+                                    2 guests・2 beds (2 twins)
+                                </div>
+                                <ul class="tagList">
+                                    <li class="tagList__item">
+                                        Free cancellation
+                                    </li>
+                                </ul>
+                                <div class="price">
+                                    <div class="price__remark">
+                                        per night
+                                    </div>
+                                    <div class="price__original">
+                                        TWD 1,280
+                                    </div>
+                                    TWD <span class="price__onsale">790</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="result__body__roomList__item result__body__roomList__item--onsale">
+                        <div class="frame">
+                            <div class="bg bgimg"
+                                style="background-image: url(./images/erick-palacio-_B9J6abAHPA-unsplash.jpg);">
+                            </div>
+                            <div class="main">
+                                <div class="location">
+                                    Din Daeng, Bangkok
+                                    <span class="fromCenter">
+                                        ・7 km from center
+                                    </span>
+                                </div>
+                                <div class="title">
+                                    DD Space
+                                </div>
+                                <div class="score">
+                                    <span class="material-icons">
+                                        star star star star
+                                    </span>
+                                    4.0 (138)
+                                </div>
+                                <div class="room">
+                                    Standard Double Room
+                                </div>
+                                <div class="remark">
+                                    2 guests・1 bed (Queen size)
+                                </div>
+                                <ul class="tagList">
+                                </ul>
+                                <div class="price">
+                                    <div class="price__remark">
+                                        per night
+                                    </div>
+                                    <div class="price__original">
+                                        TWD 1,700
+                                    </div>
+                                    TWD <span class="price__onsale">1,240</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="result__body__roomList__item">
+                        <div class="frame">
+                            <div class="bg bgimg"
+                                style="background-image: url(./images/taylor-simpson-R49Mu5jfgSk-unsplash.jpg);">
+                            </div>
+                            <div class="main">
+                                <div class="location">
+                                    Din Daeng, Bangkok
+                                    <span class="fromCenter">
+                                        ・7 km from center
+                                    </span>
+                                </div>
+                                <div class="title">
+                                    Dininn Hotel
+                                </div>
+                                <div class="score">
+                                    <span class="material-icons">
+                                        star star star star
+                                    </span>
+                                    3.0 (446)
+                                </div>
+                                <div class="room">
+                                    Deluxe Twin Room
+                                </div>
+                                <div class="remark">
+                                    2 guests・2 beds (2 twins)
+                                </div>
+                                <ul class="tagList">
+                                </ul>
+                                <div class="price">
+                                    <div class="price__remark">
+                                        per night
+                                    </div>
+                                    <div class="price__original">
+                                        0
+                                    </div>
+                                    TWD <span class="price__onsale">3,450</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="result__body__roomList__pagination">
+                    <div class="result__body__roomList__pagination__frame">
+                        <div class="previous">
+                            <a href="#" class="btn btn-outline-primary">
+                                <span class="material-icons">keyboard_arrow_left</span>
+                                <span class="text">PREVIOUS</span>
+                            </a>
+                        </div>
+                        <div class="page">
+                            <a href="#" class="pageBtn pageBtn--active">1</a>
+                            <a href="#" class="pageBtn">2</a>
+                            <a href="#" class="pageBtn">3</a>
+                            <a href="#" class="pageBtn">4</a>
+                            <a href="#" class="pageBtn">5</a>
+                            <a href="#" class="pageBtn">6</a>
+                            <span class="pageBtn abbr">…</span>
+                            <a href="#" class="pageBtn">9</a>
+                        </div>
+                        <div class="next">
+                            <a href="#" class="btn btn-primary">
+                                <span class="material-icons">keyboard_arrow_right</span>
+                                <span class="text">NEXT</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="layout__subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 col-xl-5 layout__subscribe__title">
+                    Subscribe for Exclusive Offer
+                </div>
+                <div class="col-12 col-md-8 col-xl-7 layout__subscribe__search__input input-group">
+                    <input type="email" class="inputBox form-control" placeholder="Your email address">
+                    <div class="input-group-append">
+                        <a href="#" class="inputBtn btn btn-primary">SEARCH</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="layout__footer container">
+        <ul class="layout__footer__list">
+            <li class="layout__footer__list__item">
+                <a href="#">
+                    FAQs
+                </a>
+            </li>
+            <li class="layout__footer__list__item">
+                <a href="#">
+                    Terms of use
+                </a>
+            </li>
+            <li class="layout__footer__list__item">
+                <a href="#">
+                    Privacy policy
+                </a>
+            </li>
+        </ul>
+        <div class="layout__footer__copyright">
+            © 2020 ALOHA, Inc. All rights reserved.
+        </div>
+        <ul class="layout__footer__dropupList">
+            <li class="layout__footer__dropupList__item btn-group dropup">
+                <a href="#" class="dropupBtn" id="footer__languageBtn" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    <span class="material-icons">language</span>
+                    <span class="text">English</span>
+                    <span class="material-icons">arrow_drop_down</span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="footer__languageBtn">
+                    <a class="dropdown-item" href="#">中文</a>
+                    <a class="dropdown-item" href="#">English</a>
+                    <a class="dropdown-item" href="#">日本語</a>
+                </div>
+            </li>
+            <li class="layout__footer__dropupList__item btn-group dropup">
+                <a href="#" class="dropupBtn" id="footer__currencyBtn" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    <span class="material-icons">attach_money</span>
+                    <span class="text">TWD</span>
+                    <span class="material-icons">arrow_drop_down</span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="footer__currencyBtn">
+                    <a class="dropdown-item" href="#">TWD</a>
+                    <a class="dropdown-item" href="#">USD</a>
+                    <a class="dropdown-item" href="#">JPY</a>
+                </div>
+            </li>
+        </ul>
+    </footer>
+
+
+
+
+
+    <!-- BS4 -->
+    <section>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
+    </section>
+    <!-- range slider -->
+    <section>
+        <script src="./js/nouislider.js"></script>
+        <script>
+            var handlesSlider = document.querySelectorAll(".slider-handles");
+            console.log(handlesSlider);
+            for (let i = 0; i < handlesSlider.length; i++) {
+                noUiSlider.create(handlesSlider[i], {
+                    start: [800, 4000],
+                    step: 200,
+                    range: {
+                        'min': [800],
+                        'max': [4000]
+                    }
+                });
+            }
+        </script>
+    </section>
+    <!-- js -->
+    <section>
+        <script src="./js/all.js"></script>
+    </section>
+
+</body>
+
+</html>
